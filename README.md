@@ -1,5 +1,5 @@
 # Dictionary
-Ruby project week-1 Epicodus. using sinatra, rspec, capybara, and heroku
+Ruby project week-2 Epicodus. using sinatra, rspec, capybara, and heroku
 
 ## Getting Started
 
@@ -37,6 +37,7 @@ To run the tests you will need to follow the below steps:
 * Ruby
 * Sinatra
 * Atom
+* Heroku
 
 ## Authors
 
