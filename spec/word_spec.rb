@@ -54,7 +54,7 @@ describe("Word") do
   describe('#add_definition') do
     it("adds a definition to the list of definitions") do
       my_word = Word.new({:word => "Fish"})
-      my_definition = Definition.new({:definition => "sea creature"})
+      my_definition = Definition.new({:text => "sea creature"})
       my_word.add_definition(my_definition)
       expect(my_word.definitions).to(eq([my_definition]))
     end
@@ -64,8 +64,8 @@ end
 describe("Definition") do
   describe('#initialize') do
     it ("creates a new definition" )do
-      my_definition = Definition.new({:definition => "sea creature"})
-      expect(my_definition.definition()).to(eq("sea creature"))
+      my_definition = Definition.new({:text => "sea creature"})
+      expect(my_definition.text()).to(eq("sea creature"))
       expect(my_definition.id()).to(eq(nil))
     end
   end

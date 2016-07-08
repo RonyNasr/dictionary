@@ -1,8 +1,8 @@
 class Definition
-  attr_accessor(:definition, :id)
+  attr_accessor(:text, :id)
 
   define_method(:initialize) do |attributes|
-    @definition = attributes.fetch(:definition)
+    @text = attributes.fetch(:text)
     @id = nil
   end
 
