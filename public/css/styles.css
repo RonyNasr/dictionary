@@ -1,7 +1,11 @@
 .jumbotron{
+  height: 550px;
+  padding-top: 200px;
+  font-family: cursive;
   text-align: center;
+
   background: url('../img/dictionary.jpg') no-repeat center center;
-  color: white;
+  color: rgba(235, 235, 235, 0.9);
 }
 
 body{
