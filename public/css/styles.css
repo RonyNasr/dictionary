@@ -10,4 +10,15 @@
 
 body{
   background: rgba(235, 235, 235, 0.5);
+  color: rgba(98, 98, 98, 1);
+}
+
+a, li{
+  color: rgba(98, 98, 98, 0.9);
+}
+
+
+
+.list-group-item{
+  max-width: 50%;
 }

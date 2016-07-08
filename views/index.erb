@@ -1,8 +1,8 @@
 <h2>Content</h2>
 
-<ul>
+<ul class="list-group">
   <% @dictionary.each() do |word| %>
-    <li><a href="/definitions/<%= word.id() %>"><%= word.word() %></a></li>
+    <li class="list-group-item"><a href="/definitions/<%= word.id() %>"><%= word.word() %></a></li>
   <% end %>
 </ul>
 

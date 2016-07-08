@@ -1,8 +1,8 @@
-<h2>Here are all the definitions of <%= @word.word() %></h2>
+<h2><%= @word.word() %></h2>
 
-<ul>
+<ul class="list-group">
   <% @word.definitions().each() do |definition| %>
-    <li><%= definition.text() %></li>
+    <li class="list-group-item"><%= definition.text() %></li>
   <% end %>
 </ul>
 
