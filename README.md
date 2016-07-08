@@ -4,7 +4,7 @@ Ruby project week-1 Epicodus. using sinatra, rspec, capybara, and heroku
 ## Getting Started
 
 to view the app please click on the below URL:
-(https://bagged-loonie-70369.herokuapp.com/)
+(https://desolate-tundra-28235.herokuapp.com/)
 
 ### Prerequisities
 
