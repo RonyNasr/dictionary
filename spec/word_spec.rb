@@ -2,7 +2,6 @@ require("rspec")
 require("word")
 require("definition")
 
-
 describe("Word") do
   before do
     Word.clear()
@@ -69,7 +68,4 @@ describe("Definition") do
       expect(my_definition.id()).to(eq(nil))
     end
   end
-
-
-
 end

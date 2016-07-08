@@ -34,5 +34,4 @@ class Word
     definition.id = @definitions.length()+1
     @definitions.push(definition)
   end
-
 end

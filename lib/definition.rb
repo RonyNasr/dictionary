@@ -5,6 +5,4 @@ class Definition
     @text = attributes.fetch(:text)
     @id = nil
   end
-
-
 end
